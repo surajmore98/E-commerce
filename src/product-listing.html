@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://charcoal-ui.netlify.app/src/style/style.css"/>
+    <link rel="stylesheet" href="https://charcoal-ui.netlify.app/src/style/style.css"/>
+    <link rel="stylesheet" href="./style/nav-bar.css"/>
+    <link rel="stylesheet" href="./style/filter.css"/>
+    <link rel="stylesheet" href="./style/home.css"/>
+    <title>Ecommerce</title>
+</head>
+<body>
+    <nav class="ecom-nav-bar bg-white">
+        <div class="logo">
+            <div class="logo-text charcoal-black">MyWebsite</div>
+        </div>
+        <div class="nav-search-bar">
+            <input type="text" placeholder="Search" class="nav-search-input">
+            <span class="material-icons search-icon">search</span>
+        </div>
+        <div class="nav-bar-action">
+            <button class="btn white bg-charcoal-gray">Login</button>
+            <button class="btn btn-round bg-white badge-wrapper">
+                <i class="material-icons">
+                    favorite_border
+                </i>
+                <div class="badge badge-round badge-md top right bg-error white">2</div>
+            </button>
+            <button class="btn btn-round bg-white badge-wrapper">
+                <i class="material-icons">
+                    shopping_cart
+                </i>
+                <div class="badge badge-round badge-md top right bg-error white">5</div>
+            </button>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="filter-section">
+            <div class="filter-section-header">
+                <div class="filter-section-header-title">Filters</div>
+                <div class="filter-section-header-action">Clear</div>
+            </div>
+            <div class="filter-section-content">
+                <div class="filter-section-content-title">Price</div>
+                <div class="filter-section-content-action flex-flow-vertical">
+                    <div class="slider-label-group">
+                        <label>0</label>
+                        <label>5000</label>
+                        <label>10000</label>
+                    </div>
+                    <input type="range" min="1" max="100" value="50" class="filter-section-content-slider" id="myRange">
+                </div>
+            </div>
+            <div class="filter-section-content">
+                <div class="filter-section-content-title">Category</div>
+                <div class="filter-section-content-action">
+                    <input type="checkbox" />
+                    <label class="action-item-text">Men Clothing</label>
+                </div>
+                <div class="filter-section-content-action">
+                    <input type="checkbox" />
+                    <label class="action-item-text">Women Clothing</label>
+                </div>
+            </div>
+            <div class="filter-section-content">
+                <div class="filter-section-content-title">Rating</div>
+                <div class="filter-section-content-action">
+                    <input type="radio" class="input-radio" />
+                    <label class="action-item-text">4 star & above</label>
+                </div>
+                <div class="filter-section-content-action">
+                    <input type="radio" class="input-radio" />
+                    <label class="action-item-text">3 star & above</label>
+                </div>
+                <div class="filter-section-content-action">
+                    <input type="radio" class="input-radio" />
+                    <label class="action-item-text">2 star & above</label>
+                </div>
+                <div class="filter-section-content-action">
+                    <input type="radio" class="input-radio" />
+                    <label class="action-item-text">1 star & above</label>
+                </div>
+            </div>
+            <div class="filter-section-content">
+                <div class="filter-section-content-title">Sort by</div>
+                <div class="filter-section-content-action">
+                    <input type="radio" class="input-radio" />
+                    <label class="action-item-text">Price - Low to High</label>
+                </div>
+                <div class="filter-section-content-action">
+                    <input type="radio" class="input-radio" />
+                    <label class="action-item-text">Price - High to Low</label>
+                </div>
+            </div>
+        </div>
+    
+    <div class="main-content product-grid">
+        <div class="product-grid-item bg-white  m-sm">
+            <div class="product-grid-item-media">
+                <img src="https://picsum.photos/300/300" alt="product-item" class="image" />
+            </div>    
+            <div class="product-grid-item-content">
+                <div>
+                    <div class="charcoal-black header m-sm">Men Premier Jacker</div>
+                    <div class="charcoal-black sub-header">
+                        <span class="m-sm">&#x20B9;2000</span>
+                        <span class="m-sm alternate charcoal-gray">&#x20B9;4000</span>
+                    </div>
+                    <div class="charcoal-gray detail m-sm">50%</div>
+                </div>
+                <div>
+                    <button class="btn bg-charcoal-gray white">Add to Cart</button>
+                    <button class="btn bg-charcoal-gray white">Save to Wishlist</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-grid-item bg-white  m-sm">
+            <div class="product-grid-item-media">
+                <img src="https://picsum.photos/300/300" alt="product-item" class="image" />
+            </div>    
+            <div class="product-grid-item-content">
+                <div>
+                    <div class="charcoal-black header m-sm">Men Premier Jacker</div>
+                    <div class="charcoal-black sub-header">
+                        <span class="m-sm">&#x20B9;2000</span>
+                        <span class="m-sm alternate charcoal-gray">&#x20B9;4000</span>
+                    </div>
+                    <div class="charcoal-gray detail m-sm">50%</div>
+                </div>
+                <div>
+                    <button class="btn bg-charcoal-gray white">Add to Cart</button>
+                    <button class="btn bg-charcoal-gray white">Save to Wishlist</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-grid-item bg-white  m-sm">
+            <div class="product-grid-item-media">
+                <img src="https://picsum.photos/300/300" alt="product-item" class="image" />
+            </div>    
+            <div class="product-grid-item-content">
+                <div>
+                    <div class="charcoal-black header m-sm">Men Premier Jacker</div>
+                    <div class="charcoal-black sub-header">
+                        <span class="m-sm">&#x20B9;2000</span>
+                        <span class="m-sm alternate charcoal-gray">&#x20B9;4000</span>
+                    </div>
+                    <div class="charcoal-gray detail m-sm">50%</div>
+                </div>
+                <div>
+                    <button class="btn bg-charcoal-gray white">Add to Cart</button>
+                    <button class="btn bg-charcoal-gray white">Save to Wishlist</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-grid-item bg-white  m-sm">
+            <div class="product-grid-item-media">
+                <img src="https://picsum.photos/300/300" alt="product-item" class="image" />
+            </div>    
+            <div class="product-grid-item-content">
+                <div>
+                    <div class="charcoal-black header m-sm">Men Premier Jacker</div>
+                    <div class="charcoal-black sub-header">
+                        <span class="m-sm">&#x20B9;2000</span>
+                        <span class="m-sm alternate charcoal-gray">&#x20B9;4000</span>
+                    </div>
+                    <div class="charcoal-gray detail m-sm">50%</div>
+                </div>
+                <div>
+                    <button class="btn bg-charcoal-gray white">Add to Cart</button>
+                    <button class="btn bg-charcoal-gray white">Save to Wishlist</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-grid-item bg-white  m-sm">
+            <div class="product-grid-item-media">
+                <img src="https://picsum.photos/300/300" alt="product-item" class="image" />
+            </div>    
+            <div class="product-grid-item-content">
+                <div>
+                    <div class="charcoal-black header m-sm">Men Premier Jacker</div>
+                    <div class="charcoal-black sub-header">
+                        <span class="m-sm">&#x20B9;2000</span>
+                        <span class="m-sm alternate charcoal-gray">&#x20B9;4000</span>
+                    </div>
+                    <div class="charcoal-gray detail m-sm">50%</div>
+                </div>
+                <div>
+                    <button class="btn bg-charcoal-gray white">Add to Cart</button>
+                    <button class="btn bg-charcoal-gray white">Save to Wishlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
