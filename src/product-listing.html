@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="./style/nav-bar.css"/>
     <link rel="stylesheet" href="./style/filter.css"/>
     <link rel="stylesheet" href="./style/home.css"/>
-    <title>Ecommerce</title>
+    <title>CHARCOAL-E</title>
 </head>
 <body>
     <nav class="ecom-nav-bar bg-white">
         <div class="logo">
-            <div class="logo-text charcoal-black">MyWebsite</div>
+            <div class="logo-text charcoal-black">CHARCOAL-E</div>
         </div>
         <div class="nav-search-bar">
             <input type="text" placeholder="Search" class="nav-search-input">
@@ -36,8 +36,19 @@
                 <div class="badge badge-round badge-md top right bg-error white">5</div>
             </button>
         </div>
+        <div class="nav-bar-action">
+            <button class="btn btn-round bg-white badge-wrapper" id="menu-btn">
+                <i class="material-icons">
+                    menu
+                </i>
+            </button>
+        </div>
     </nav>
-    
+    <ul class="nav-menu">
+        <li><a class="nav-menu-link bg-white charcoal-black">Login</a></li>
+        <li><a class="nav-menu-link bg-white charcoal-black">Cart</a></li>
+        <li><a class="nav-menu-link bg-white charcoal-black">Wishlist</a></li>
+    </ul>
     <div class="container">
         <div class="filter-section">
             <div class="filter-section-header">
@@ -113,8 +124,8 @@
                     <div class="charcoal-gray detail m-sm">50%</div>
                 </div>
                 <div>
-                    <button class="btn bg-charcoal-gray white">Add to Cart</button>
-                    <button class="btn bg-charcoal-gray white">Save to Wishlist</button>
+                    <button class="btn product-btn bg-charcoal-gray white">Add to Cart</button>
+                    <button class="btn product-btn bg-charcoal-gray white">Save to Wishlist</button>
                 </div>
             </div>
         </div>
@@ -132,8 +143,8 @@
                     <div class="charcoal-gray detail m-sm">50%</div>
                 </div>
                 <div>
-                    <button class="btn bg-charcoal-gray white">Add to Cart</button>
-                    <button class="btn bg-charcoal-gray white">Save to Wishlist</button>
+                    <button class="btn product-btn bg-charcoal-gray white">Add to Cart</button>
+                    <button class="btn product-btn bg-charcoal-gray white">Save to Wishlist</button>
                 </div>
             </div>
         </div>
@@ -151,8 +162,8 @@
                     <div class="charcoal-gray detail m-sm">50%</div>
                 </div>
                 <div>
-                    <button class="btn bg-charcoal-gray white">Add to Cart</button>
-                    <button class="btn bg-charcoal-gray white">Save to Wishlist</button>
+                    <button class="btn product-btn bg-charcoal-gray white">Add to Cart</button>
+                    <button class="btn product-btn bg-charcoal-gray white">Save to Wishlist</button>
                 </div>
             </div>
         </div>
@@ -170,8 +181,8 @@
                     <div class="charcoal-gray detail m-sm">50%</div>
                 </div>
                 <div>
-                    <button class="btn bg-charcoal-gray white">Add to Cart</button>
-                    <button class="btn bg-charcoal-gray white">Save to Wishlist</button>
+                    <button class="btn product-btn bg-charcoal-gray white">Add to Cart</button>
+                    <button class="btn product-btn bg-charcoal-gray white">Save to Wishlist</button>
                 </div>
             </div>
         </div>
@@ -189,11 +200,12 @@
                     <div class="charcoal-gray detail m-sm">50%</div>
                 </div>
                 <div>
-                    <button class="btn bg-charcoal-gray white">Add to Cart</button>
-                    <button class="btn bg-charcoal-gray white">Save to Wishlist</button>
+                    <button class="btn product-btn bg-charcoal-gray white">Add to Cart</button>
+                    <button class="btn product-btn bg-charcoal-gray white">Save to Wishlist</button>
                 </div>
             </div>
         </div>
     </div>
+    <script src="./js/nav-bar.js"></script>
 </body>
 </html>
