@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://charcoal-ui.netlify.app/src/style/style.css"/>
+        <link rel="stylesheet" href="./style/nav-bar.css"/>
+        <link rel="stylesheet" href="./style/home.css"/>
+        <link rel="stylesheet" href="./style/cart.css"/>
+        <title>CHARCOAL-E</title>
+    </head>
+    <body>
+        <nav class="ecom-nav-bar bg-white">
+            <div class="logo">
+                <div class="logo-text charcoal-black">CHARCOAL-E</div>
+            </div>
+            <div class="nav-search-bar">
+                <input type="text" placeholder="Search" class="nav-search-input">
+                <span class="material-icons search-icon">search</span>
+            </div>
+            <div class="nav-bar-action">
+                <button class="btn white bg-charcoal-gray">Login</button>
+                <button class="btn btn-round bg-white badge-wrapper">
+                    <i class="material-icons">
+                        favorite_border
+                    </i>
+                    <div class="badge badge-round badge-md top right bg-error white">2</div>
+                </button>
+                <button class="btn btn-round bg-white badge-wrapper">
+                    <i class="material-icons">
+                        shopping_cart
+                    </i>
+                    <div class="badge badge-round badge-md top right bg-error white">5</div>
+                </button>
+            </div>
+            <div class="nav-bar-action">
+                <button class="btn btn-round bg-white badge-wrapper" id="menu-btn">
+                    <i class="material-icons">
+                        menu
+                    </i>
+                </button>
+            </div>
+        </nav>
+        <ul class="nav-menu">
+            <li><a class="nav-menu-link bg-white charcoal-black">Login</a></li>
+            <li><a class="nav-menu-link bg-white charcoal-black">Cart</a></li>
+            <li><a class="nav-menu-link bg-white charcoal-black">Wishlist</a></li>
+        </ul>
+        <div class="main-content">
+            <div class="cart">
+                <div class="cart-header">My Cart</div>
+                <div class="cart-content">
+                    <div class="product-grid-item bg-white  m-sm">
+                        <div class="product-grid-item-media">
+                            <img src="https://picsum.photos/300/300" alt="product-item" class="image" />
+                        </div>    
+                        <div class="product-grid-item-content">
+                            <div>
+                                <div class="charcoal-black header m-sm">Men Premier Jacker</div>
+                                <div class="charcoal-black sub-header">
+                                    <span class="m-sm">&#x20B9;2000</span>
+                                    <span class="m-sm alternate charcoal-gray">&#x20B9;4000</span>
+                                </div>
+                                <div class="charcoal-gray detail m-sm">50%</div>
+                                <div class="charcoal-gray detail m-sm">
+                                    <div class="detail-text">Quantity: </div>
+                                    <div class="counter-input">
+                                        <span class="text">-</span>
+                                        <input type="text" value="1"/>
+                                        <span class="text">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="btn product-btn bg-charcoal-gray white">Remove From Cart</button>
+                                <button class="btn product-btn bg-charcoal-gray white">Move to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-content-right bg-white  m-sm">
+                        <div class="cart-header cart-content-header">
+                            PRICE DETAILS
+                        </div>
+                        <div class="cart-content-divider"></div>
+                        <div class="cart-content-detail">
+                            <div>
+                                Price(2 items)
+                            </div>
+                            <div>
+                                &#x20B9;4999
+                            </div>
+                        </div>
+                        <div class="cart-content-detail">
+                            <div>
+                                Discount
+                            </div>
+                            <div>
+                                -&#x20B9;1999
+                            </div>
+                        </div>
+                        <div class="cart-content-detail">
+                            <div>
+                                Delivery Charges
+                            </div>
+                            <div>
+                                -&#x20B9;499
+                            </div>
+                        </div>
+                        <div class="cart-content-divider"></div>
+                        <div class="cart-header cart-content-header">
+                            <div>
+                                TOTAL AMOUNT
+                            </div>
+                            <div>
+                                -&#x20B9;3499
+                            </div>
+                        </div>
+                        <div class="cart-content-divider"></div>
+                        <div class="cart-content-detail">
+                            You will save &#x20B9;1999 on this order
+                        </div>
+                        <button class="btn product-btn bg-info white p-sm">Add to Cart</button> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./js/nav-bar.js"></script>
+    </body>
+</html>

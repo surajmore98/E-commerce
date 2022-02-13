@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogOut</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://charcoal-ui.netlify.app/src/style/style.css"/>
+    <link rel="stylesheet" href="./style/nav-bar.css"/>
+    <link rel="stylesheet" href="./style/home.css"/>
+    <link rel="stylesheet" href="./style/register.css"/>
+</head>
+<body>
+    <nav class="ecom-nav-bar bg-white">
+        <div class="logo">
+            <div class="logo-text charcoal-black">CHARCOAL-E</div>
+        </div>
+        <div class="nav-search-bar">
+            <input type="text" placeholder="Search" class="nav-search-input">
+            <span class="material-icons search-icon">search</span>
+        </div>
+        <div class="nav-bar-action">
+            <button class="btn white bg-charcoal-gray">Login</button>
+            <button class="btn btn-round bg-white badge-wrapper">
+                <i class="material-icons">
+                    favorite_border
+                </i>
+                <div class="badge badge-round badge-md top right bg-error white">2</div>
+            </button>
+            <button class="btn btn-round bg-white badge-wrapper">
+                <i class="material-icons">
+                    shopping_cart
+                </i>
+                <div class="badge badge-round badge-md top right bg-error white">5</div>
+            </button>
+        </div>
+        <div class="nav-bar-action">
+            <button class="btn btn-round bg-white badge-wrapper" id="menu-btn">
+                <i class="material-icons">
+                    menu
+                </i>
+            </button>
+        </div>
+    </nav>
+    <ul class="nav-menu">
+        <li><a class="nav-menu-link bg-white charcoal-black">Login</a></li>
+        <li><a class="nav-menu-link bg-white charcoal-black">Cart</a></li>
+        <li><a class="nav-menu-link bg-white charcoal-black">Wishlist</a></li>
+    </ul>
+    <div class="main-content register-container">
+        <div class="register">
+            <div class="header">
+                <p>You are Logged Out, Please Sign in Again.</p>
+            </div>
+            <button class="btn bg-info white p-sm">Sign In</button> 
+        </div>
+    </div>
+    <script src="./js/nav-bar.js"></script>
+</body>
+</html>
