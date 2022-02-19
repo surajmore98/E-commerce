@@ -42,3 +42,12 @@
 .register .form-field-horizontal {
     justify-content: space-between;
 }
+
+.link {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.register-checkbox-label {
+    padding-right: 4rem;
+}
