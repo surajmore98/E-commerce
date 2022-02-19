@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://charcoal-ui.netlify.app/src/style/style.css"/>
+        <link rel="stylesheet" href="./src/style/nav-bar.css"/>
+        <link rel="stylesheet" href="./src/style/home.css"/>
+        <title>CHARCOAL-E</title>
+    </head>
+    <body>
+        <nav class="ecom-nav-bar bg-white">
+            <div class="logo">
+                <a class="logo-text charcoal-black" href="./index.html">CHARCOAL-E</a>
+            </div>
+            <div class="nav-search-bar">
+                <input type="text" placeholder="Search" class="nav-search-input">
+                <span class="material-icons search-icon">search</span>
+            </div>
+            <div class="nav-bar-action">
+                <a class="btn white bg-charcoal-gray" href="./src/login.html">Login</a>
+                <a class="btn btn-round bg-white nav-icon badge-wrapper" href="./src/wishlist.html">
+                    <i class="material-icons">
+                        favorite_border
+                    </i>
+                    <div class="badge badge-round badge-md top right bg-error white">2</div>
+                </a>
+                <a class="btn btn-round bg-white nav-icon badge-wrapper" href="./src/cart.html">
+                    <i class="material-icons">
+                        shopping_cart
+                    </i>
+                    <div class="badge badge-round badge-md top right bg-error white">5</div>
+                </a>
+            </div>
+            <div class="nav-bar-action">
+                <button class="btn btn-round bg-white badge-wrapper" id="menu-btn">
+                    <i class="material-icons">
+                        menu
+                    </i>
+                </button>
+            </div>
+        </nav>
+        <ul class="nav-menu">
+            <li><a class="nav-menu-link bg-white charcoal-black" href="./src/login.html">Login</a></li>
+            <li><a class="nav-menu-link bg-white charcoal-black" href="./src/cart.html">Cart</a></li>
+            <li><a class="nav-menu-link bg-white charcoal-black" href="./src/wishlist.html">Wishlist</a></li>
+        </ul>
+        <div class="main-content layout-grid">
+            <div class="product-category-list">
+                <div class="product-category-item border-charcoal-black">
+                    <img src="./resource/img/casual.jpg" alt="card-image" class="image" />
+                    <div class="white product-category-title">Casual</div>
+                </div>
+                <div class="product-category-item">
+                    <img src="./resource/img/formal.jpg" alt="card-image" class="image" />
+                    <div class="white product-category-title">Formal</div>
+                </div>
+                <div class="product-category-item">
+                    <img src="./resource/img/traditional.jpg" alt="card-image" class="image" />
+                    <div class="white product-category-title">Traditional</div>
+                </div>
+                <div class="product-category-item">
+                    <img src="./resource/img/sport.jpg" alt="card-image" class="image" />
+                    <div class="white product-category-title">Sports</div>
+                </div>
+            </div>
+            <div class="product-category-item banner">
+                <img src="./resource/img/banner.jpg" alt="card-image" class="image" />
+                <a class="btn btn-lg btn-outline border white font-xxl product-category-title" href="./src/product-listing.html">View More</a>
+            </div>
+            <div class="product-category-group">
+                <div class="product-category charcoal-gray">
+                    <img src="./resource/img/summer_small.jpg" alt="card-image" class="image" />
+                    <div class="category-section">
+                        <div class="charcoal-black category-section-title">Summer Collection</div>
+                        <p class="charcoal-black category-section-detail">Check out over new summer collection to stay cool in style in season</p>
+                    </div>
+                </div>
+                <div class="product-category charcoal-gray">
+                    <img src="./resource/img/winter_small.jpg" alt="card-image" class="image" />
+                    <div class="category-section">
+                        <div class="charcoal-black category-section-title">Winter Collection</div>
+                        <p class="charcoal-black category-section-detail">Check out over new winter collection to stay warm in style in season</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./src/js/nav-bar.js"></script>
+    </body>
+</html>

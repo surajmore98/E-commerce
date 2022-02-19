@@ -77,6 +77,15 @@
     color: var(--charcoal-gray);
 }
 
+.nav-icon {
+    height: 1.75rem;
+    width: 2rem;
+}
+
+.btn:hover {
+    filter: brightness(80%);
+}
+
 @media only screen and (max-width: 700px) {
     .ecom-nav-bar {
         justify-content: space-between;

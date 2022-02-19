@@ -69,8 +69,8 @@ body {
 }
 
 .product-category img {
-    width: 40%;
-    height: 50%;
+    width: 35%;
+    height: 70%;
     padding: 1rem;
     padding-left: 2rem;
 }
@@ -150,6 +150,7 @@ body {
 
     .product-category-list {
         grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
 
     .product-category-group {
